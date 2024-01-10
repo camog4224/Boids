@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Olimace</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="1200" height="700"></canvas><br>
+    
+    <input type="button" id = "reset" name = "reset"><br>
+
+    <input type="number" id = "fr" name = "fr">
+    <label for="fr">Frame Rate</label><br>
+    
+    <input type="checkbox" id = "qTree" name = "qTree">
+    <label for="qTree">Show Tree</label><br>
+    
+    <input type="checkbox" id = "rangeCheck" name = "range">
+    <label for="range">Show Perception</label>
+
+    <input type="range" min="1" max="50" value="25" id="rangeRange" name = "perc">
+    <label for="perc">Perception</label><br>
+    
+    <input type="range" min="0" max="50" value="25" id="align" name = "align">
+    <label for="align">Align</label><br>
+    
+    <input type="range" min="0" max="50" value="15" id="seperate">
+    <label for="seperate">Seperation</label><br>
+    
+    <input type="range" min="0" max="50" value="5" id="cohes">
+    <label for="cohes">Cohesion</label><br>
+
+    <input type="range" min="1" max="50" value="25" id="accel">
+    <label for="cohes">Acceleration</label><br>
+
+    <script src="script.js"></script>
+</body>
